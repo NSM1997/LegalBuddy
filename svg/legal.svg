@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa" />
+
+  <!-- App Window -->
+  <rect x="100" y="50" width="1000" height="700" rx="8" ry="8" fill="white" stroke="#e0e4e8" stroke-width="1" />
+
+  <!-- Header -->
+  <rect x="100" y="50" width="1000" height="70" rx="8" ry="8" fill="#2c3e50" />
+  <text x="160" y="95" font-family="Arial, sans-serif" font-size="24" fill="white" font-weight="bold">Legally AI</text>
+  
+  <!-- Status text -->
+  <circle cx="130" cy="85" r="8" fill="#4cd964" />
+  <text x="970" y="95" font-family="Arial, sans-serif" font-size="16" fill="#a0aec0" text-anchor="end">Online</text>
+
+  <!-- Sidebar -->
+  <rect x="100" y="120" width="250" height="630" fill="#f5f7fa" />
+  
+  <!-- Sidebar header -->
+  <rect x="100" y="120" width="250" height="60" fill="#f5f7fa" stroke="#e0e4e8" stroke-width="1" />
+  <text x="120" y="160" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" font-weight="bold">Recent Conversations</text>
+  
+  <!-- New conversation button -->
+  <rect x="120" y="195" width="210" height="45" rx="6" ry="6" fill="#3498db" />
+  <text x="225" y="223" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">New Conversation</text>
+  
+  <!-- Conversation list -->
+  <rect x="120" y="260" width="210" height="60" rx="4" ry="4" fill="white" stroke="#e0e4e8" stroke-width="1" />
+  <text x="140" y="285" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" font-weight="bold">Tenancy Agreement</text>
+  <text x="140" y="305" font-family="Arial, sans-serif" font-size="14" fill="#718096">March 18, 2025</text>
+  
+  <rect x="120" y="330" width="210" height="60" rx="4" ry="4" fill="white" stroke="#e0e4e8" stroke-width="1" />
+  <text x="140" y="355" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" font-weight="bold">Copyright Question</text>
+  <text x="140" y="375" font-family="Arial, sans-serif" font-size="14" fill="#718096">March 15, 2025</text>
+  
+  <rect x="120" y="400" width="210" height="60" rx="4" ry="4" fill="white" stroke="#e0e4e8" stroke-width="1" />
+  <text x="140" y="425" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" font-weight="bold">Employment Contract</text>
+  <text x="140" y="445" font-family="Arial, sans-serif" font-size="14" fill="#718096">March 10, 2025</text>
+
+  <!-- Chat area -->
+  <rect x="350" y="120" width="1000" height="630" fill="white" />
+  
+  <!-- Chat history -->
+  <rect x="380" y="150" width="1000" height="460" fill="#f8f9fa" rx="8" ry="8" />
+  
+  <!-- Bot message -->
+  <rect x="400" y="170" width="450" height="70" rx="18" ry="18" fill="#e9f5ff" />
+  <text x="420" y="195" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" width="410">Hello! I'm your legal assistant. How can I help you today?</text>
+  <text x="420" y="220" font-family="Arial, sans-serif" font-size="14" fill="#718096">10:30 AM</text>
+  <circle cx="380" cy="200" r="20" fill="#3498db" />
+  <text x="380" cy="200" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">LA</text>
+  
+  <!-- User message -->
+  <rect x="620" y="260" width="500" height="70" rx="18" ry="18" fill="#2c3e50" />
+  <text x="640" y="285" font-family="Arial, sans-serif" font-size="16" fill="white">I need help with my tenancy.</text>
+  <text x="641" y="300" font-family="Arial, sans-serif" font-size="16" fill="white">My landlord wants to increase rent with only 2 weeks notice.</text>
+  <text x="1050" y="315" font-family="Arial, sans-serif" font-size="14" fill="#a0aec0" text-anchor="end">10:31 AM</text>
+  
+  <!-- Bot response -->  
+  <rect x="400" y="350" width="500" height="140" rx="18" ry="18" fill="#e9f5ff" />
+  <text x="420" y="375" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">In most places,landlords must provide notice for rent increases:</text>
+  
+  <!-- List items with proper spacing -->
+  <text x="440" y="405" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">• Usually 30-90 days notice is required</text>
+  <text x="440" y="435" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">• The notice must be in writing</text>
+  <text x="440" y="465" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">• Must comply with local rent control laws</text>
+  
+  <text x="420" y="495" font-family="Arial, sans-serif" font-size="14" fill="#718096">10:32 AM</text>
+  <circle cx="380" cy="375" r="20" fill="#3498db" />
+  <text x="380" cy="375" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">LA</text>
+  
+  <!-- Bot follow-up question -->
+  <rect x="400" y="510" width="300" height="55" rx="18" ry="18" fill="#e9f5ff" />
+  <text x="420" y="540" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">What state/country are you located in?</text>
+  <text x="420" y="560" font-family="Arial, sans-serif" font-size="14" fill="#718096">10:32 AM</text>
+  <circle cx="380" cy="535" r="20" fill="#3498db" />
+  <text x="380" cy="535" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">LA</text>
+  
+  <!-- Input area -->
+  <rect x="380" y="630" width="690" height="90" rx="8" ry="8" fill="#f8f9fa" stroke="#e0e4e8" stroke-width="1" />
+  <rect x="400" y="650" width="550" height="50" rx="25" ry="25" fill="white" stroke="#e0e4e8" stroke-width="1" />
+  <text x="420" y="680" font-family="Arial, sans-serif" font-size="16" fill="#a0aec0">Type your message here...</text>
+  
+  <!-- Send button -->
+  <circle cx="990" cy="675" r="25" fill="#3498db" />
+  <path d="M980 675 L1000 665 L1000 685 Z" fill="white" />
+  
+  <!-- Additional features -->
+  <rect x="880" y="650" width="40" height="40" rx="20" ry="20" fill="#f5f7fa" stroke="#e0e4e8" stroke-width="1" />
+  <text x="900" y="677" font-family="Arial, sans-serif" font-size="20" fill="#718096" text-anchor="middle">📎</text>
+  
+  <rect x="830" y="650" width="40" height="40" rx="20" ry="20" fill="#f5f7fa" stroke="#e0e4e8" stroke-width="1" />
+  <text x="850" y="677" font-family="Arial, sans-serif" font-size="20" fill="#718096" text-anchor="middle">🎙️</text>
+</svg>
