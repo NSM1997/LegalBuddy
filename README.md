@@ -8,9 +8,6 @@ Legally is an AI-powered legal platform aimed at revolutionizing legal practice 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## 🌟 Features
 
